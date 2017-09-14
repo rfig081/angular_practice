@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserItemComponent implements OnInit {
 
-  constructor() { }
+  name:string //name property
+
+  constructor() {
+    this.name = 'Js'; //set name
+   }
 
   ngOnInit() {
   }
